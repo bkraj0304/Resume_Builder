@@ -2,116 +2,491 @@
   {
     "messageStore": [
       {
-        "user": "Hiiii",
-        "chatbot": "Hi there! What can I help you with today?  Are you talking about your dogs?  I'm happy to chat about dogs, or whatever else is on your mind!  \n"
+        "user": "Hi, I am looking to build my resume.",
+        "chatbot": "Hello! I can help you with that. Let's start with some basic information. What is your full name?"
+      },
+      {
+        "user": "Rajesh Kumar",
+        "chatbot": "Great, Rajesh Kumar. Can you provide your email address?"
+      },
+      {
+        "user": "rajesh.kumar@example.com",
+        "chatbot": "Thank you! And what is your phone number?"
+      },
+      {
+        "user": "1234567890",
+        "chatbot": "Got it. Now, could you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am an experienced software developer with a background in various programming languages.",
+        "chatbot": "Excellent. What are your key skills?"
+      },
+      {
+        "user": "Java, Python, C++, and web development.",
+        "chatbot": "Great skills! Can you list your work experience?"
+      },
+      {
+        "user": "Worked as a Software Engineer at Tech Solutions for 3 years.",
+        "chatbot": "Thanks! Please provide your education background."
+      },
+      {
+        "user": "Bachelor's degree in Computer Science from NIT Manipur.",
+        "chatbot": "Got it. Do you have any certifications?"
+      },
+      {
+        "user": "Yes, I have a certification in Data Science.",
+        "chatbot": "Perfect. What are your hobbies or interests?"
+      },
+      {
+        "user": "I enjoy playing cricket and reading tech blogs.",
+        "chatbot": "Thank you. Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All done! Here is the resume we have generated for you."
       }
     ],
-    "prompt_Generated": "Simple Greeting \n"
+    "prompt_Generated": "Resume Builder Information \n"
   },
   {
     "messageStore": [
       {
-        "user": "Hiii how are yoy",
-        "chatbot": "I'm doing well, thank you for asking! How are you today? \n\nTell me more about your dogs! What are their names and breeds? Are they furry friends or maybe a little mischievous? \n"
+        "user": "I need help with my resume.",
+        "chatbot": "Sure! Let's start with your name. What is your full name?"
       },
       {
-        "user": "Whats your name",
-        "chatbot": "I don't have a name! I'm a large language model, and I'm here to assist you with any questions or tasks you may have. \n\nDo you want to tell me more about your dogs?  What are their names and breeds? \n"
+        "user": "Rajesh Kumar",
+        "chatbot": "Thank you. Could you provide your email address?"
       },
       {
-        "user": "Thankyou",
-        "chatbot": "You're welcome!  Is there anything else I can help you with today? \n"
+        "user": "rajesh.kumar@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "1234567890",
+        "chatbot": "Next, can you give a brief summary about yourself?"
+      },
+      {
+        "user": "I am a skilled software developer with experience in multiple technologies.",
+        "chatbot": "Wonderful. What are your key skills?"
+      },
+      {
+        "user": "Java, Python, SQL, and web development.",
+        "chatbot": "Excellent. Please list your work experience."
+      },
+      {
+        "user": "Software Engineer at Tech Solutions for 3 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "B.Tech in Computer Science from NIT Manipur.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, a certification in Machine Learning.",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "I enjoy reading and playing cricket.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All set! Here's the resume generated for you."
       }
     ],
-    "prompt_Generated": "\"Hi, how are you?\" \n"
+    "prompt_Generated": "Complete Resume Information \n"
   },
   {
     "messageStore": [
       {
-        "user": "Hello",
-        "chatbot": "Hello! How are you doing today? Is there anything I can help you with? \n"
+        "user": "Hello, I need assistance with creating my resume.",
+        "chatbot": "Hello! Let's get started. What's your full name?"
+      },
+      {
+        "user": "Priya Sharma",
+        "chatbot": "Nice to meet you, Priya Sharma. Could you provide your email address?"
+      },
+      {
+        "user": "priya.sharma@example.com",
+        "chatbot": "Thanks! What is your phone number?"
+      },
+      {
+        "user": "9876543210",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a marketing specialist with 5 years of experience in digital marketing.",
+        "chatbot": "Great! What are your key skills?"
+      },
+      {
+        "user": "SEO, SEM, content marketing, and data analysis.",
+        "chatbot": "Excellent. Could you list your work experience?"
+      },
+      {
+        "user": "Marketing Manager at ABC Corp for 2 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "MBA in Marketing from XYZ University.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Google Analytics Certification.",
+        "chatbot": "Awesome. What are your hobbies or interests?"
+      },
+      {
+        "user": "Traveling and photography.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "Yes, I have references available upon request.",
+        "chatbot": "Perfect. Your resume has been created. Here's the final version!"
       }
     ],
-    "prompt_Generated": "\"Simple Greeting\" \n"
+    "prompt_Generated": "Marketing Specialist Resume \n"
   },
   {
     "messageStore": [
       {
-        "user": "Rajesh",
-        "chatbot": "Rajesh, that's a nice name!  It sounds like you're ready to tell me more about your two dogs. What are their names? What breeds are they?  Do you have any fun stories about them? \n"
+        "user": "I want to update my resume.",
+        "chatbot": "Of course! Let's start with your full name. What is your full name?"
+      },
+      {
+        "user": "Amit Verma",
+        "chatbot": "Thank you, Amit Verma. Can you provide your email address?"
+      },
+      {
+        "user": "amit.verma@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "4567891230",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a project manager with extensive experience in software development.",
+        "chatbot": "Excellent. What are your key skills?"
+      },
+      {
+        "user": "Project management, Agile methodologies, and team leadership.",
+        "chatbot": "Perfect. Can you list your work experience?"
+      },
+      {
+        "user": "Project Manager at DEF Ltd for 4 years.",
+        "chatbot": "Great. What is your education background?"
+      },
+      {
+        "user": "B.Tech in Computer Science from NIT Manipur.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, PMP Certification.",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "Hiking and coding.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All done! Here's your updated resume."
       }
     ],
-    "prompt_Generated": "Two Dogs Home \n"
+    "prompt_Generated": "Project Manager Resume Update \n"
   },
   {
     "messageStore": [
       {
-        "user": "Hiii",
-        "chatbot": "Hi there! What can I do for you today? \n"
+        "user": "I need to create a resume for a new job application.",
+        "chatbot": "Let's get started. What is your full name?"
+      },
+      {
+        "user": "Sneha Patel",
+        "chatbot": "Thank you, Sneha Patel. Can you provide your email address?"
+      },
+      {
+        "user": "sneha.patel@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "3216549870",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a graphic designer with a strong portfolio in branding and advertising.",
+        "chatbot": "Wonderful. What are your key skills?"
+      },
+      {
+        "user": "Adobe Creative Suite, UI/UX design, and illustration.",
+        "chatbot": "Great skills! Can you list your work experience?"
+      },
+      {
+        "user": "Graphic Designer at GHI Studio for 2 years.",
+        "chatbot": "Thanks. What is your education background?"
+      },
+      {
+        "user": "Bachelor’s degree in Graphic Design from ABC University.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Certified Adobe Expert.",
+        "chatbot": "Awesome. What are your hobbies or interests?"
+      },
+      {
+        "user": "Designing and photography.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All set! Here’s your resume for the job application."
       }
     ],
-    "prompt_Generated": "Simple User Greeting \n"
+    "prompt_Generated": "Graphic Designer Resume Creation \n"
   },
   {
     "messageStore": [
       {
-        "user": "Finally Its done",
-        "chatbot": "That's great! What is done?  Tell me more!  I'm happy to hear good news. \n"
+        "user": "Can you help me with my resume?",
+        "chatbot": "Sure! Let's start with your name. What is your full name?"
       },
       {
-        "user": "Time to sleeep now",
-        "chatbot": "That sounds lovely! Sweet dreams to you and your two furry friends! \n"
+        "user": "Ravi Mehta",
+        "chatbot": "Thanks, Ravi Mehta. Can you provide your email address?"
       },
       {
-        "user": "Gd night",
-        "chatbot": "Good night to you too! Sweet dreams and hopefully, your dogs are sleeping soundly as well. \n"
+        "user": "ravi.mehta@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "5678901234",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am an experienced data analyst with expertise in statistical analysis and data visualization.",
+        "chatbot": "Perfect. What are your key skills?"
+      },
+      {
+        "user": "Data analysis, SQL, and Tableau.",
+        "chatbot": "Excellent. Can you list your work experience?"
+      },
+      {
+        "user": "Data Analyst at JKL Corp for 3 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "Master’s degree in Data Science from DEF University.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Certified Data Scientist.",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "Traveling and learning new technologies.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All done! Here’s your completed resume."
       }
     ],
-    "prompt_Generated": "Relief - Task Complete \n"
+    "prompt_Generated": "Data Analyst Resume \n"
   },
   {
     "messageStore": [
       {
-        "user": "bHASKAR rAJ",
-        "chatbot": "I'm sorry, I don't understand. \"bHASKAR rAJ\" seems to be a name, but I need more context to help you. \n\nCould you tell me more about what you're looking for? For example:\n\n* Are you looking for information about someone named Bhaskar Raj?\n* Are you trying to spell something correctly?\n* Are you sharing a name with me? \n\nLet me know, and I'll do my best to"
+        "user": "I need a resume for a new role.",
+        "chatbot": "Let's get started. What is your full name?"
       },
       {
-        "user": "bkraj0304@gmail.com",
-        "chatbot": "I understand you're sharing your email address. However, I'm an AI and cannot access or use personal information like email addresses. \n\nIs there something else you'd like to talk about? Perhaps you want to tell me about your dogs, or maybe you need help with something related to them? \n"
+        "user": "Anita Gupta",
+        "chatbot": "Thank you, Anita Gupta. Can you provide your email address?"
       },
       {
-        "user": "6205824537",
-        "chatbot": "It seems you provided a phone number. Is there something you'd like to do with it? Perhaps you want to know:\n\n* **What kind of number it is:** Is it a landline, mobile, or business number? \n* **Where it's located:** Is it a local or international number?\n* **Who it belongs to:**  Please be aware that I cannot give you personal information about someone based on their phone number. It's important to respect people"
+        "user": "anita.gupta@example.com",
+        "chatbot": "Great. What is your phone number?"
       },
       {
-        "user": "",
-        "chatbot": "It seems you're just getting started! Tell me more about your dogs! \n\nAre they playful pups or cuddly companions? Do they have any special tricks or quirks? \n\nI'm ready to hear all about your furry friends. \n"
+        "user": "6789012345",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
       },
       {
-        "user": "",
-        "chatbot": "I'm ready to hear more about your dogs! What breeds are they? What are their names? Do they have any fun quirks or stories you'd like to share? \n"
+        "user": "I am a human resources specialist with a focus on employee relations and recruitment.",
+        "chatbot": "Wonderful. What are your key skills?"
       },
       {
-        "user": "",
-        "chatbot": "It sounds like you have two furry companions! I'm happy to hear that.  Would you like to tell me about them?  What are their names, what breeds are they, and what are they like? \n"
+        "user": "Employee relations, recruitment, and performance management.",
+        "chatbot": "Perfect. Can you list your work experience?"
       },
       {
-        "user": "dhjash",
-        "chatbot": "It seems like you're typing randomly. Can you tell me more about your dogs? I'd love to hear about their names, breeds, and anything else you'd like to share. \n"
+        "user": "HR Specialist at MNO Ltd for 4 years.",
+        "chatbot": "Got it. What is your education background?"
       },
       {
-        "user": "yes",
-        "chatbot": "That's a great start!  To help me understand what you want to talk about, could you tell me a bit more about your dogs? For example:\n\n* What are their names? \n* What breeds are they? \n* How old are they? \n* Are they playful or calm?\n* Are you having any trouble with them or just wanting to chat about them? \n\nThe more you tell me, the better I can understand your needs! "
+        "user": "Bachelor’s degree in Human Resources from GHI University.",
+        "chatbot": "Do you have any certifications?"
       },
       {
-        "user": "dksnjdae",
-        "chatbot": "I'm not sure what you're asking.  Could you please rephrase your question? \n\nI'm happy to help you with information about your dogs or anything else you might be curious about! \n"
+        "user": "Yes, SHRM-CP Certification.",
+        "chatbot": "Great. What are your hobbies or interests?"
       },
       {
-        "user": "no",
-        "chatbot": "Okay, no problem! Is there anything else I can help you with today? \n"
+        "user": "Cooking and volunteering.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All done! Here is your resume for the new role."
       }
     ],
-    "prompt_Generated": "\"BHASKAR RAJ\" prompt. \n"
+    "prompt_Generated": "HR Specialist Resume \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Help me with my resume.",
+        "chatbot": "Of course! What is your full name?"
+      },
+      {
+        "user": "Sonia Patel",
+        "chatbot": "Thank you, Sonia Patel. Can you provide your email address?"
+      },
+      {
+        "user": "sonia.patel@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "7890123456",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a software engineer with a passion for developing innovative solutions.",
+        "chatbot": "Perfect. What are your key skills?"
+      },
+      {
+        "user": "Python, Django, and JavaScript.",
+        "chatbot": "Great. Can you list your work experience?"
+      },
+      {
+        "user": "Software Engineer at PQR Technologies for 2 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "B.Tech in Computer Science from LMN Institute.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Certified Python Developer.",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "Gaming and coding.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All set! Here’s your resume."
+      }
+    ],
+    "prompt_Generated": "Software Engineer Resume \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "I want to update my resume for a promotion.",
+        "chatbot": "Let’s get started. What is your full name?"
+      },
+      {
+        "user": "Deepak Singh",
+        "chatbot": "Thanks, Deepak Singh. Can you provide your email address?"
+      },
+      {
+        "user": "deepak.singh@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "8901234567",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a business analyst with expertise in data-driven decision making.",
+        "chatbot": "Wonderful. What are your key skills?"
+      },
+      {
+        "user": "Data analysis, business intelligence, and strategic planning.",
+        "chatbot": "Perfect. Can you list your work experience?"
+      },
+      {
+        "user": "Business Analyst at STU Inc for 3 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "MBA in Business Analytics from OPQ University.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Certified Business Analysis Professional (CBAP).",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "Reading and hiking.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "No.",
+        "chatbot": "All done! Here’s your updated resume for the promotion."
+      }
+    ],
+    "prompt_Generated": "Business Analyst Resume Update \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "I need a resume for a freelance project.",
+        "chatbot": "Let's start. What is your full name?"
+      },
+      {
+        "user": "Neha Sharma",
+        "chatbot": "Thank you, Neha Sharma. Can you provide your email address?"
+      },
+      {
+        "user": "neha.sharma@example.com",
+        "chatbot": "Great. What is your phone number?"
+      },
+      {
+        "user": "9012345678",
+        "chatbot": "Got it. Can you provide a brief summary about yourself?"
+      },
+      {
+        "user": "I am a freelance graphic designer with a strong portfolio.",
+        "chatbot": "Wonderful. What are your key skills?"
+      },
+      {
+        "user": "Graphic design, branding, and digital art.",
+        "chatbot": "Great skills! Can you list your work experience?"
+      },
+      {
+        "user": "Freelance Graphic Designer for 5 years.",
+        "chatbot": "Got it. What is your education background?"
+      },
+      {
+        "user": "Diploma in Graphic Design from RST Institute.",
+        "chatbot": "Do you have any certifications?"
+      },
+      {
+        "user": "Yes, Adobe Certified Expert.",
+        "chatbot": "What are your hobbies or interests?"
+      },
+      {
+        "user": "Art and digital media.",
+        "chatbot": "Do you have any references?"
+      },
+      {
+        "user": "Yes, references available upon request.",
+        "chatbot": "All set! Here’s your resume for the freelance project."
+      }
+    ],
+    "prompt_Generated": "Freelance Graphic Designer Resume \n"
   }
 ]

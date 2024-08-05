@@ -22,14 +22,14 @@ export default function Home() {
       alert('Invalid messageStore format or empty messageStore');
       return;
     }
-
+  
     const prompt = "Give me a 3-word short description of the prompt as I want to save user prompt with that name only. Here is the prompt: " + (messageStore[0]?.response || '');
     console.log('handleSave prompt:', prompt);
-
+  
     try {
       const prompt_Generated = await gemini_model_call(prompt);
       console.log('Generated Prompt:', prompt_Generated);
-
+  
       const response = await fetch('/api/save', {
         method: 'POST',
         headers: {
@@ -37,10 +37,10 @@ export default function Home() {
         },
         body: JSON.stringify({ messageStore, prompt_Generated })
       });
-
+  
       const data = await response.json();
       console.log('Save Response:', data);
-
+  
       if (data.message === "Data inserted successfully!!!") {
         setConversationList(prevPromptText => [
           ...prevPromptText,
@@ -54,6 +54,8 @@ export default function Home() {
       alert('Error saving conversation');
     }
   };
+  
+  
 
   const fetchData = useCallback(async () => {
     try {
@@ -210,7 +212,10 @@ export default function Home() {
               <button type="button" className="btn btn-success listItems download" onClick={handleDownload}>Download Conversation</button>
             </div>
           ) : (
+            <div>
+            {/* <button type="button" className="btn btn-success listItems" onClick={handleSave}>Save Current Conversation</button> */}
             <button type="button" className="btn btn-success listItems download" onClick={handleDownload}>Download Conversation</button>
+            </div>
           )}
         </div>
       </div>
