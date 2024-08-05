@@ -1,0 +1,117 @@
+[
+  {
+    "messageStore": [
+      {
+        "user": "Hiiii",
+        "chatbot": "Hi there! What can I help you with today?  Are you talking about your dogs?  I'm happy to chat about dogs, or whatever else is on your mind!  \n"
+      }
+    ],
+    "prompt_Generated": "Simple Greeting \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Hiii how are yoy",
+        "chatbot": "I'm doing well, thank you for asking! How are you today? \n\nTell me more about your dogs! What are their names and breeds? Are they furry friends or maybe a little mischievous? \n"
+      },
+      {
+        "user": "Whats your name",
+        "chatbot": "I don't have a name! I'm a large language model, and I'm here to assist you with any questions or tasks you may have. \n\nDo you want to tell me more about your dogs?  What are their names and breeds? \n"
+      },
+      {
+        "user": "Thankyou",
+        "chatbot": "You're welcome!  Is there anything else I can help you with today? \n"
+      }
+    ],
+    "prompt_Generated": "\"Hi, how are you?\" \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Hello",
+        "chatbot": "Hello! How are you doing today? Is there anything I can help you with? \n"
+      }
+    ],
+    "prompt_Generated": "\"Simple Greeting\" \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Rajesh",
+        "chatbot": "Rajesh, that's a nice name!  It sounds like you're ready to tell me more about your two dogs. What are their names? What breeds are they?  Do you have any fun stories about them? \n"
+      }
+    ],
+    "prompt_Generated": "Two Dogs Home \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Hiii",
+        "chatbot": "Hi there! What can I do for you today? \n"
+      }
+    ],
+    "prompt_Generated": "Simple User Greeting \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "Finally Its done",
+        "chatbot": "That's great! What is done?  Tell me more!  I'm happy to hear good news. \n"
+      },
+      {
+        "user": "Time to sleeep now",
+        "chatbot": "That sounds lovely! Sweet dreams to you and your two furry friends! \n"
+      },
+      {
+        "user": "Gd night",
+        "chatbot": "Good night to you too! Sweet dreams and hopefully, your dogs are sleeping soundly as well. \n"
+      }
+    ],
+    "prompt_Generated": "Relief - Task Complete \n"
+  },
+  {
+    "messageStore": [
+      {
+        "user": "bHASKAR rAJ",
+        "chatbot": "I'm sorry, I don't understand. \"bHASKAR rAJ\" seems to be a name, but I need more context to help you. \n\nCould you tell me more about what you're looking for? For example:\n\n* Are you looking for information about someone named Bhaskar Raj?\n* Are you trying to spell something correctly?\n* Are you sharing a name with me? \n\nLet me know, and I'll do my best to"
+      },
+      {
+        "user": "bkraj0304@gmail.com",
+        "chatbot": "I understand you're sharing your email address. However, I'm an AI and cannot access or use personal information like email addresses. \n\nIs there something else you'd like to talk about? Perhaps you want to tell me about your dogs, or maybe you need help with something related to them? \n"
+      },
+      {
+        "user": "6205824537",
+        "chatbot": "It seems you provided a phone number. Is there something you'd like to do with it? Perhaps you want to know:\n\n* **What kind of number it is:** Is it a landline, mobile, or business number? \n* **Where it's located:** Is it a local or international number?\n* **Who it belongs to:**  Please be aware that I cannot give you personal information about someone based on their phone number. It's important to respect people"
+      },
+      {
+        "user": "",
+        "chatbot": "It seems you're just getting started! Tell me more about your dogs! \n\nAre they playful pups or cuddly companions? Do they have any special tricks or quirks? \n\nI'm ready to hear all about your furry friends. \n"
+      },
+      {
+        "user": "",
+        "chatbot": "I'm ready to hear more about your dogs! What breeds are they? What are their names? Do they have any fun quirks or stories you'd like to share? \n"
+      },
+      {
+        "user": "",
+        "chatbot": "It sounds like you have two furry companions! I'm happy to hear that.  Would you like to tell me about them?  What are their names, what breeds are they, and what are they like? \n"
+      },
+      {
+        "user": "dhjash",
+        "chatbot": "It seems like you're typing randomly. Can you tell me more about your dogs? I'd love to hear about their names, breeds, and anything else you'd like to share. \n"
+      },
+      {
+        "user": "yes",
+        "chatbot": "That's a great start!  To help me understand what you want to talk about, could you tell me a bit more about your dogs? For example:\n\n* What are their names? \n* What breeds are they? \n* How old are they? \n* Are they playful or calm?\n* Are you having any trouble with them or just wanting to chat about them? \n\nThe more you tell me, the better I can understand your needs! "
+      },
+      {
+        "user": "dksnjdae",
+        "chatbot": "I'm not sure what you're asking.  Could you please rephrase your question? \n\nI'm happy to help you with information about your dogs or anything else you might be curious about! \n"
+      },
+      {
+        "user": "no",
+        "chatbot": "Okay, no problem! Is there anything else I can help you with today? \n"
+      }
+    ],
+    "prompt_Generated": "\"BHASKAR RAJ\" prompt. \n"
+  }
+]
