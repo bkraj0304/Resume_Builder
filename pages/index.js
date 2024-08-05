@@ -28,7 +28,7 @@ export default function Home() {
   
     try {
       const prompt_Generated = await gemini_model_call(prompt);
-      console.log('Generated Prompt:', prompt_Generated);
+      // console.log('Generated Prompt:', prompt_Generated);
   
       const response = await fetch('/api/save', {
         method: 'POST',
@@ -39,7 +39,7 @@ export default function Home() {
       });
   
       const data = await response.json();
-      console.log('Save Response:', data);
+      // console.log('Save Response:', data);
   
       if (data.message === "Data inserted successfully!!!") {
         setConversationList(prevPromptText => [
@@ -111,7 +111,7 @@ export default function Home() {
     } else {
       // Send entire conversation history to Gemini API
       try {
-        console.log("Message Store before API Call:", newMessageStore);
+        // console.log("Message Store before API Call:", newMessageStore);
   
         const generatedResume = await gemini_model_call(newMessageStore);
   
@@ -138,7 +138,7 @@ export default function Home() {
   };
 
   const handleConversationClick = (conversation) => {
-    console.log("Conversation clicked:", conversation);
+    // console.log("Conversation clicked:", conversation);
   
     // Assuming conversation.messageStore is an array of objects with 'user' and 'chatbot' fields
     const updatedMessages = [];
