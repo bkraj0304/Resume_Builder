@@ -8,7 +8,7 @@ export default function Home() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
     {
-      text: "Hi, I am Chatbot, How can I help You?",
+      text: "Hi, I am Resume-Builder chatbot. Let's build your resume. First, tell me your name?",
       isBot: true,
     }
   ]);
@@ -23,7 +23,7 @@ export default function Home() {
       return;
     }
 
-    const prompt = "Give me 3 word short description of prompt as I want to save user prompt with that name only. Here is the prompt: " + (messageStore[0]?.response || '');
+    const prompt = "Give me a 3-word short description of the prompt as I want to save user prompt with that name only. Here is the prompt: " + (messageStore[0]?.response || '');
     console.log('handleSave prompt:', prompt);
 
     try {
@@ -78,17 +78,17 @@ export default function Home() {
 
   const handleSend = async () => {
     if (input.trim() === "") return;
-
+  
     const userInput = input.trim();
     setInput('');
-
+  
     const newMessages = [
       ...messages,
       { text: userInput, isBot: false }
     ];
-
+  
     const currentPrompt = resumePrompts[promptIndex];
-
+  
     const newMessageStore = [
       ...messageStore,
       {
@@ -96,44 +96,29 @@ export default function Home() {
         response: userInput
       }
     ];
-
+  
     setMessages(newMessages);
     setMessageStore(newMessageStore);
-
+  
     if (promptIndex + 1 < resumePrompts.length) {
       setPromptIndex(promptIndex + 1);
-
       setMessages([
         ...newMessages,
         { text: resumePrompts[promptIndex + 1], isBot: true }
       ]);
     } else {
-      // Send data to Gemini API
+      // Send entire conversation history to Gemini API
       try {
         console.log("Message Store before API Call:", newMessageStore);
-
-        const response = await fetch('/api/gemini', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ messageStore: newMessageStore })
-        });
-
-        const data = await response.json();
-        if (response.ok) {
-          setGeneratedResume(data.generatedResume);
-          setMessages([
-            ...newMessages,
-            { text: "Here is the best resume generated for you:", isBot: true },
-            { text: data.generatedResume, isBot: true }
-          ]);
-        } else {
-          setMessages([
-            ...newMessages,
-            { text: "Failed to generate resume. Please try again later.", isBot: true }
-          ]);
-        }
+  
+        const generatedResume = await gemini_model_call(newMessageStore);
+  
+        setGeneratedResume(generatedResume);
+        setMessages([
+          ...newMessages,
+          { text: "Here is the best resume generated for you:", isBot: true },
+          { text: generatedResume, isBot: true }
+        ]);
       } catch (error) {
         console.error('Error:', error);
         setMessages([
@@ -143,6 +128,8 @@ export default function Home() {
       }
     }
   };
+  
+  
 
   const handleEnter = async (e) => {
     if (e.key === 'Enter') await handleSend();
@@ -173,8 +160,6 @@ export default function Home() {
     setMessageStore(conversation.messageStore || []);
     setMessages(updatedMessages);
   };
-  
-  
 
   const handleDownload = () => {
     const fileContent = messageStore.length > 0 ? messageStore : messages;
@@ -257,7 +242,6 @@ export default function Home() {
           <p>AI INTERACT may produce incorrect results</p>
         </div>
       </div>
-      
     </div>
   );
 }
