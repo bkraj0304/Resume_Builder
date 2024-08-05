@@ -66,7 +66,7 @@ export default function Home() {
         }
       });
       const output = await response.json();
-      console.log("Fetched Data:", output);
+      // console.log("Fetched Data:", output);
 
       if (output.message === "User data processed successfully") {
         setConversationList(output.conversationData);
